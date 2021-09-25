@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-header {
-
-}
-
 .container_head {
     background-color: #1f2937;
 }
@@ -38,17 +33,18 @@ body {
     height: auto;
     object-fit:fill
 }
-=======
+
 *{
     margin: 0px;
     padding: 0px;
 }
-.header{
+
+.header {
     background-color: #1F2937;
     width: 100%;
-    min-height: 500px;
+    min-height: 100px;
 }
-.contents{
+.contents {
     width: auto;
     height: auto;
     max-width: 1024px;
@@ -57,21 +53,17 @@ body {
     margin-right: auto;
     color: #FFF;
 }
-.nav{
-    padding-top: 20px;
+
+.nav {
+    padding: 20px 20px 0px;
     display: flex;
     flex: 1;
     text-align: right;
     justify-content: space-between;
 }
-.nav ul li{
+.nav ul li {
     list-style-type: none;
     display: inline;
-    margin-left: 20px;
+    margin-left: 10px;
 
 }
-
-
->>>>>>> 70c088169e515893f39587da1bbdc344d80131da
-
-
