@@ -1,1 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    background-color: #1F2937;
+    width: 100%;
+    min-height: 500px;
+}
+.contents{
+    width: auto;
+    height: auto;
+    max-width: 1024px;
+    max-height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    color: #FFF;
+}
+.nav{
+    padding-top: 20px;
+    display: flex;
+    flex: 1;
+    text-align: right;
+    justify-content: space-between;
+}
+.nav ul li{
+    list-style-type: none;
+    display: inline;
+    margin-left: 20px;
+
+}
+
+
+
 
