@@ -1,3 +1,11 @@
+html {
+    box-sizing: border-box;
+}
+
+  *, *::before, *::after {
+    box-sizing: inherit;
+}
+
 .container_head {
     background-color: #1f2937;
 }
