@@ -1,3 +1,7 @@
+* {
+    border: red 1px solid;
+}
+
 .container_head {
     background-color: #1f2937;
 }
@@ -8,8 +12,27 @@ body {
 
 .container_body {
     background-color: cornflowerblue;
+    display: flex;
 }
 
+.awesometxt {
+    padding: 10px;
+}
+
+h1 {
+
+    text-align: left;
+    color: wheat;
+}
+
+p {
+    text-align: center, justify;
+}
+
+.boton {
+    text-align: right;
+    padding: 10px;
+}
 
 #tynilogo {
     width: 120px;
@@ -57,13 +80,11 @@ body {
 .nav {
     padding: 20px 20px 0px;
     display: flex;
-    flex: 1;
-    text-align: right;
+    flex: auto;
     justify-content: space-between;
 }
 .nav ul li {
     list-style-type: none;
     display: inline;
-    margin-left: 10px;
-
+    margin: 5px;
 }
