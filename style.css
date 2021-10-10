@@ -38,16 +38,49 @@ p {
     margin-top: 10px;
 }
 
-#tynilogo {
-    width: 120px;
-    height: 60px;
+.newsletter {
+    display: flex;
+    background: rgb(98, 159, 240);
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: auto;
+    gap: 8px;
 }
 
-.hlogo {
-    width: 100%;
-    height: auto;
-    object-fit: none;
-    object-position: 6% -1
+.newsletter h1 {
+    color: rgb(223, 205, 51);
+}
+
+button {
+    background: rgb(7, 40, 189);
+    color: rgb(26, 218, 26);
+}
+button:hover {
+    background: grey;
+    color: lightgray;
+}
+
+
+footer {
+    background: rgb(25, 26, 73);
+    color: white;
+    text-align: center;
+}
+
+#tynilogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    width: 100px;
+    height: 50px;
+    border: 2px blue dotted;
+}
+
+.logo {
+    color: aqua;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #cutecow {
